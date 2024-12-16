@@ -1,0 +1,374 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/*SEG 1*/
+
+.seg1{
+    height: 120px;
+    background-color: rgb(239, 230, 112);
+    background-image: url("Sassy\ silver1.jpg");
+    background-size: 35%;
+    background-repeat: no-repeat;
+
+}
+.seg1 i{
+    display: none;
+}
+
+.seg1_2{
+    height: 120px;
+    background-color: rgb(239, 230, 112);
+    justify-content: center;
+    display: flex;
+    
+}
+.seg1_2 ul{
+    width: 100%;
+    margin-top: 14%;
+}
+
+.seg1_2 ul a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.seg1_2 ul li{
+    float: left;
+    margin-left: 5%;
+    background-color: aliceblue;
+    width: 100px;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 5%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+
+}
+
+.seg1 h1{
+    font-family: Optien;
+}
+
+
+
+.seg1_3{
+    height: 120px;
+    background-color: rgb(239, 230, 112);
+    
+}
+
+.seg1_3 section{
+    width: 91%;
+    height: 90%;
+    background-color:rgb(239, 230, 112);
+    margin-top: 3%;
+
+}
+
+
+
+.seg1_3 section input:nth-child(1){
+    padding-left: 2%;
+    width: 46%;
+    font-family: Poppins;
+    border-radius: 3px;
+    border:solid thin gray
+}
+.seg1_3 section input:nth-child(2){
+    padding-left: 2%;
+    padding-right: 7%;
+    width: 46%;
+    font-family: Poppins;
+    border-radius: 3px;
+    border: solid thin gray;
+
+}
+#show{
+    
+    margin-left: -20px;
+    font-size: 13px;
+    color: gray;
+    cursor: pointer;
+}
+
+.seg1_3 section input[type='submit']{
+    height: 39px;
+    width: 46%;
+    margin-top: 5%;
+    font-family: Montserrat;
+    background: rgb(247, 59, 59);
+    border: solid thin transparent;
+    border-radius: 9px;
+    box-shadow: 0px 0px 4px gainsboro;
+    transition: linear 0.8s ease-out;
+
+}
+
+
+.seg1_3 section input[type='submit']:hover{
+    background: linear-gradient(90deg, rgb(247, 59, 59), rgb(224, 30, 30));
+    transition: linear 0.8s ease-in;
+
+}
+
+.seg1_3 section input[type='button']{
+    display: block;
+    float: left;
+    font-family: Montserrat;
+    font-weight: bold;
+    color:rgb(247, 59, 59);
+    margin-top: 5%;
+    border: solid 2px rgb(247, 59, 59);
+    border-radius: 9px;
+    width: 46%;
+    height: 39px;
+    margin-right: 2%;
+    
+}
+
+
+
+
+
+
+
+
+/*SEG 2*/
+
+
+
+.seg2{
+    height: 450px;
+    background: whitesmoke;
+}
+
+.seg2 h1{
+    font-family: Optien;
+}
+.seg2 p{
+    font-family: Poppins;
+}
+
+.seg2_2{
+    height: 450px;
+    background: rgb(145, 144, 144);
+}
+
+
+/*Mobile base seg*/
+
+.mobile_base_seg{
+    display: none;
+    height: 310px;
+    background: red;
+    position: absolute;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px gray;
+    
+}
+.mobile_base_seg form{
+    margin-top: 10%;
+}
+.mobile_base_seg form div input{
+    width: 50%;
+    height: 17%;
+}
+.btn_sup{
+    
+    background-color: yellow;
+    font-family: "Bahnschrift";
+    
+}
+
+.fg{
+    align-items: center;
+
+
+}
+
+
+.mobile_base_seg div{
+    display: none;
+}
+
+
+
+
+  /*MOBILE DEVICE DISPLAY*/
+
+
+@media only screen and (max-width: 660px){
+
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        
+    }
+
+    .seg1{
+        margin-left: 0%;
+        height:80px;
+    }
+
+    .seg1{
+        height: 120px;
+        background-color: rgb(239, 230, 112);
+        background-image: url("Sassy\ silver1.jpg");
+        background-size: 30%;
+        background-repeat: no-repeat;
+    
+    }
+
+
+    .seg1 i{
+        display: flex;
+        font-size: 30px;
+        float: right;
+    }
+
+
+    .seg1_2{
+        margin-left: 0%;
+        height: 200px;
+    }
+    .seg1_2 ul{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .seg1_2 ul li{
+        width: 100%;
+        font-size: 22px;
+        margin-left: 0%;
+        margin-top: 1%;
+        background-color: transparent;
+
+    }
+
+    .seg1_2 ul li::selection{
+        background-color: orange;
+    }
+    .seg1_3{
+        margin-left: 0%;
+        height:340px;
+    }
+
+    .seg1_3 section{
+        width: 100%;
+        height: 100%;
+        background-color:transparent;
+        margin-top: 10%;
+    
+    }
+
+    .seg1_3 section input:nth-child(1){
+        width: 100%;
+        height: 40px;
+
+    }
+    .seg1_3 section input:nth-child(2){
+        width: 100%;
+        height: 40px;
+        margin-top: 5%;
+
+    }
+    .seg1_3 section input[type='submit']{
+        width: 100%;
+        height: 55px;
+        font-family: Montserrat;
+        font-weight: bold;
+        color:white;
+        margin-top: 13%;
+        border: solid thin transparent;
+        transition: all 0.8s ease-out;
+
+    }
+
+    .seg1_3 section input[type='submit']:hover{
+        background: linear-gradient(90deg, rgb(247, 59, 59), rgb(224, 30, 30));
+        transition: all 0.8s ease-in;
+
+    }
+
+
+
+    .seg1_3 section input[type='button']{
+        display: block;
+        width: 100%;
+        height: 55px;
+        font-family: Montserrat;
+        font-weight: bold;
+        color:rgb(247, 59, 59);
+        margin-top: 5%;
+        border: solid 2px rgb(247, 59, 59);
+        border-radius: 9px;
+
+    }
+
+
+    #show{
+        font-size: 100%;
+        padding-left: -4%;
+        
+
+    }
+
+    #mbs{
+        display: none;
+    }
+
+    .mobile_base_seg{
+        
+        height: 420px;
+        background: red;
+        display: block;
+        
+    }
+    .mobile_base_seg div{
+        display: block;
+    }
+
+    .mobile_base_seg form{
+        
+        background-color:transparent;
+        height: 250px;
+       
+    }
+
+    .mobile_base_seg form div input{
+        width: 80%;
+        
+        color: whitesmoke;
+
+
+    }
+    
+    
+    
+
+
+    
+    
+
+
+
+
+
+}
+
+    
+
+
+
+
+
+
+
+
